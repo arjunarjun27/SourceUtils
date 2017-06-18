@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import com.example.arjun27.sourceutils.R;
 
-import Interface.IReportBack;
+import customview.Interface.IReportBack;
 
 /**
  * Created by arjun27 on 6/10/2017.
@@ -19,8 +19,6 @@ public abstract class MonitoredDebugActivity extends MonitoredActivity implement
 
 
     protected abstract boolean onMenuItemSelected(MenuItem item);
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
